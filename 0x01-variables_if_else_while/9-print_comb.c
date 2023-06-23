@@ -13,7 +13,12 @@ for (j = 0; j <= 9; j++)
 {
 putchar('0' + i);
 putchar('0' + j);
-putchar('\n');
+
+if (i != 9 || j != 9)
+{
+putchar(',');
+putchar(' ');
+}
 }
 }
 return (0);
