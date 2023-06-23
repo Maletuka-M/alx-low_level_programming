@@ -16,8 +16,10 @@ putchar('0' + i % 10);
 putchar(' ');
 putchar('0' + j / 10);
 putchar('0' + j % 10);
+putchar(',');
+putchar(' ');
+}
+}
 putchar('\n');
-}
-}
 return (0);
 }
