@@ -11,6 +11,8 @@ for (i = 0; i <= 99; i++)
 {
 for (j = i; j <= 99; j++)
 {
+if (i != 0 || j != 0)
+{
 putchar('0' + i / 10);
 putchar('0' + i % 10);
 putchar(' ');
@@ -21,6 +23,7 @@ if (i != 99 || j != 99)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
