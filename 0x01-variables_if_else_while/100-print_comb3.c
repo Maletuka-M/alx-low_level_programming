@@ -15,11 +15,12 @@ if (i != j)
 {
 putchar('0' + i);
 putchar('0' + j);
-
-if (j != 9)
+{
+if (i != 8 || j != 9)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
