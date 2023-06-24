@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
+ * main - printing alphabet in lower case
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
 char ch = 'a';
 
