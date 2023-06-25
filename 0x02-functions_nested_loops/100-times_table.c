@@ -21,7 +21,7 @@ _putchar(' ');
 
 prod = i * j;
 
-if (prod <= 90)
+if (prod <= 99)
 _putchar(' ');
 if (prod <= 9)
 _putchar(' ');
@@ -30,7 +30,7 @@ if (prod >= 100)
 _putchar((prod / 100) + '0');
 _putchar(((prod / 10) % 10) + '0');
 }
-else if (prod <= 90 && prod >= 10)
+else if (prod <= 99 && prod >= 10)
 {
 _putchar((prod / 10) + '0');
 }
