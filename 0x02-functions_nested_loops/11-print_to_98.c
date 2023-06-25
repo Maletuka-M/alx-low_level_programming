@@ -11,12 +11,15 @@ if (n <= 98)
 {
 for (; n <= 98; n++)
 {
-_putchar(n / 10 + '0');
-_putchar(n % 10 + '0');
-if (n != 98)
+if (n == 98)
 {
-_putchar(',');
-_putchar(' ');
+printf("%d", n);
+printf("\n");
+break;
+}
+else
+{
+printf("%d, ", n);
 }
 }
 }
@@ -24,14 +27,16 @@ else
 {
 for (; n >= 98; n--)
 {
-_putchar(n / 10 + '0');
-_putchar(n % 10 + '0');
-if (n != 98)
+if (n == 98)
 {
-_putchar(',');
-_putchar(' ');
+printf("%d", n);
+printf("\n");
+break;
+}
+else
+{
+printf("%d, ", n);
 }
 }
 }
-_putchar('\n');
 }
